@@ -12,8 +12,8 @@ import br.com.acervo.model.LogModel;
 import br.com.acervo.util.LogCat;
 
 /**
- *
- * @author joseluiz
+ * 
+ * @author jluiz
  */
 public class AcervoConnectionMySql {
 
