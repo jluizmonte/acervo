@@ -61,13 +61,16 @@ public class AcervoConnectionSqLite {
             diretorioUsuario = diretorioPadrao + "\\acervo";
             this.setUrl("jdbc:sqlite:" + diretorioUsuario + "\\acervo.db");
         }
-
+ 
         // criação das tabelas
         String tema = "CREATE TABLE IF NOT EXISTS \"tbl_tema\" (\n"
-                + "	\"pk_id_tema\"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" + "	\"tema_nome\"	TEXT\n" + ");";
+                + "\"pk_id_tema\"INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" 
+                +"\"tema_nome\"TEXT\n" 
+                + ");";
 
         String nomeBiblioteca = "CREATE TABLE IF NOT EXISTS \"tbl_biblioteca\" (\n"
-                + "	\"pk_id_tema\"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" + "	\"biblioteca_nome\"	TEXT\n"
+                + "\"pk_id_tema\"INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" 
+                + "\"biblioteca_nome\"	TEXT\n"
                 + ");";
 
         // inserção de dados nas tabelas

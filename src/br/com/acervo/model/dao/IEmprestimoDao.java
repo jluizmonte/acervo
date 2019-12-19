@@ -10,18 +10,18 @@ import br.com.acervo.model.EmprestimoModel;
  */
 public interface IEmprestimoDao {
 
-	public int salvarEmprestimoDAO(EmprestimoModel pEmprestimoModel);
+    public int salvarEmprestimoDAO(EmprestimoModel pEmprestimoModel);
 
-	public boolean salvarEmprestimosDAO(ArrayList<EmprestimoModel> plistaModelEmprestimos);
+    public boolean salvarEmprestimosDAO(ArrayList<EmprestimoModel> plistaModelEmprestimos);
 
-	public EmprestimoModel getEmprestimoDAO(int pIdEmprestimo);
+    public EmprestimoModel getEmprestimoDAO(int pIdEmprestimo);
 
-	public ArrayList<EmprestimoModel> getListaEmprestimoDAO();
+    public ArrayList<EmprestimoModel> getListaEmprestimoDAO();
 
-	public boolean atualizarEmprestimoDAO(EmprestimoModel pEmprestimoModel);
+    public boolean atualizarEmprestimoDAO(EmprestimoModel pEmprestimoModel);
 
-	public boolean excluirEmprestimoDAO(int pIdEmprestimoModel);
+    public boolean excluirEmprestimoDAO(int pIdEmprestimoModel);
 
-	public EmprestimoModel getQuantidadeEmprestimo();
+    public EmprestimoModel getQuantidadeEmprestimo();
 
 }
