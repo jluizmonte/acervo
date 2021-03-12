@@ -106,7 +106,7 @@ public class AcervoConnectionMySql {
     }
 
     /**
-     * Executa insert SQL
+     * Executar insert SQL
      *
      * @param pSQL
      * @return boolean
